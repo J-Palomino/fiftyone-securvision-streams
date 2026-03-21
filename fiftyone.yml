@@ -1,0 +1,16 @@
+name: "@securvision/streams"
+version: "1.0.0"
+fiftyone:
+  version: ">=0.25"
+description: >
+  Live RTSP, webcam, and demo camera streaming for SecurVision.
+  Captures frames in background threads and displays them in a
+  FiftyOne panel. Snapshots can be saved to the active dataset.
+operators:
+  - add_camera
+  - remove_camera
+  - snapshot_camera
+  - snapshot_all_cameras
+  - refresh_streams
+panels:
+  - camera_streams

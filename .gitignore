@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+_frames/
+securvision_snapshots/
+.DS_Store
