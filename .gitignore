@@ -2,4 +2,6 @@ __pycache__/
 *.pyc
 _frames/
 securvision_snapshots/
+securvision_recordings/
+securvision_config.json
 .DS_Store

@@ -3,14 +3,27 @@ version: "1.0.0"
 fiftyone:
   version: ">=0.25"
 description: >
-  Live RTSP, webcam, and demo camera streaming for SecurVision.
-  Captures frames in background threads and displays them in a
-  FiftyOne panel. Snapshots can be saved to the active dataset.
+  Live camera streaming NVR for FiftyOne with motion detection,
+  MP4 recording, email alerts, object detection (YOLO/zoo models),
+  footage search by date/time/label, and timeline browsing.
 operators:
   - add_camera
   - remove_camera
   - snapshot_camera
   - snapshot_all_cameras
   - refresh_streams
+  - discover_cameras
+  - configure_motion
+  - toggle_recording
+  - configure_recording
+  - configure_alerts
+  - configure_detection
+  - analyze_samples
+  - search_footage
+  - browse_timeline
+  - manage_cameras
+  - configure_zones
+  - import_zones_from_sample
+  - toggle_grid_view
 panels:
   - camera_streams
